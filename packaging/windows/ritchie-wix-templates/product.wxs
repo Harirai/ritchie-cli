@@ -21,13 +21,12 @@
 
       <Package
          InstallerVersion="200"
-         Compressed="yes" 
+         Compressed="yes"
          Comments="Windows Installer Package"
          AdminImage="no"
          ReadOnly="yes"/>
 
       <WixVariable Id="WixUIBannerBmp" Value="C:\workspace\docs\img\ritchie-banner.bmp" />
-      <WixVariable Id="WixUIDialogBmp" Value="C:\workspace\docs\img\ritchie-banner.bmp" />
 
       <Property Id="ARPHELPLINK" Value="$(var.InfoURL)" />
 
